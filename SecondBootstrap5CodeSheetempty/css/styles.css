@@ -2,6 +2,13 @@ body {
     background: #A1A6A1;
 }
 
+.page-header-bar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .page-header-bar h1 {  /*styles the header text*/
   color: #A0AE98;
@@ -28,14 +35,16 @@ line-height: normal;
 .navbar { /*styles the navbar*/
     background-color: #585689 !important;    
     border: 5px solid rgba(0, 0, 0, 0.25);    
-    border-radius: 15px;                      
+    border-radius: 15px;
+    height: 50px;                 
     width: 100%;
     margin: 20px auto;
     padding: 20px;
-    box-shadow: 0 4px 4px rgba(0,0,0,0.25);   
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);  
 }
 
-.navbar-nav .nav-link { /*styles the nav links*/
+
+.nav-link { /*styles the nav links*/
     color: #7C7AAA;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     -webkit-text-stroke-width: 1px;
@@ -45,6 +54,10 @@ line-height: normal;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.active {
+    color: white !important;
 }
 
 
