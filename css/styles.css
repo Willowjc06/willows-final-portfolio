@@ -93,16 +93,33 @@ line-height: normal;
 .image-3 {
     border: 10px solid #4C3756
 }
+.image-caption {
+    border-radius: 30px;
+    border: 10px solid #3F2948;
+    background: #4E3259;
+    margin: 5px auto;
+    color: #7A548A;
+    font-family: Chewy;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center
+}
 .about-images-container {    
     background: #515774;
     border-radius: 30px;
     border: 10px solid #484762;
+    height: 99%;
+
 }
 .about-images-text {
     color: #323145;
-font-family: Chewy;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Chewy;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    
 }
