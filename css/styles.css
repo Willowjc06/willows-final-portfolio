@@ -6,10 +6,10 @@ body {
 .page-header-bar h1 {  /*styles the header text*/
   color: #A0AE98;
 text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
--webkit-text-stroke-width: 2px;
+-webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: #536353;
 font-family: Chicle;
-font-size: 70px;
+font-size: 75px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -34,7 +34,7 @@ line-height: normal;
     border: 5px solid rgba(0, 0, 0, 0.25);    
     border-radius: 15px;
     height: 50px;                 
-    width: 100%;
+    width: 98%;
     margin: 5px auto;
     padding: 20px;
     box-shadow: 0 4px 4px rgba(0,0,0,0.25);  
@@ -56,6 +56,7 @@ line-height: normal;
 .active {
     color: white !important;
 }
+
 
 .about-me-container {
     display: flex;
@@ -80,6 +81,7 @@ line-height: normal;
     padding: 0px;
 }
 
+
 .about-me-image {
     border-radius: 30px;
 }
@@ -93,6 +95,7 @@ line-height: normal;
 .image-3 {
     border: 10px solid #4C3756
 }
+
 .image-caption {
     border-radius: 30px;
     border: 10px solid #3F2948;
@@ -122,4 +125,26 @@ line-height: normal;
     line-height: normal;
     text-align: left;
     
+}
+
+.my-work-text {
+    color: #A0AE98;
+    font-family: Chewy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.my-work-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #536853;    
+    border: 5px solid rgba(0, 0, 0, 0.25);  
+    border-radius: 20px;                     
+    width: 80%;
+    margin: 5px auto;
+    padding: 10px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);  
 }
