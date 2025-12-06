@@ -176,7 +176,7 @@ line-height: normal;
     border-radius: 30px;
     padding:10px;
 }
-   .robot-container {
+.robot-container {
     background: #515774;
     border-radius: 30px;
     border: 8px solid #484762;
@@ -185,11 +185,11 @@ line-height: normal;
 }
 .robot-text {
     color: #323145;
-        font-family: Chewy;
-        font-size: 25px;
-        font-weight: 400;
-        line-height: normal;
-        padding:10px;
+    font-family: Chewy;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    padding:10px;
 }
 
 .reflection-container {
