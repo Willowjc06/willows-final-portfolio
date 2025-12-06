@@ -176,7 +176,6 @@ line-height: normal;
     border-radius: 30px;
     padding:10px;
 }
-
    .robot-container {
     background: #515774;
     border-radius: 30px;
@@ -184,13 +183,24 @@ line-height: normal;
     height: 99%;
     margin: 10px;
 }
-
 .robot-text {
     color: #323145;
-        font-family: Chicle;
-        font-size: 28px;
-        style: normal;
+        font-family: Chewy;
+        font-size: 25px;
         font-weight: 400;
         line-height: normal;
         padding:10px;
+}
+
+.refelction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #536853;    
+    border: 5px solid rgba(0, 0, 0, 0.25);  
+    border-radius: 20px;                     
+    width: 80%;
+    margin: 5px auto;
+    padding: 10px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);  
 }
