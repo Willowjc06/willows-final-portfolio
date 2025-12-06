@@ -3,7 +3,7 @@ body {
 }
 
 
-.page-header-bar h1 {  /*styles the header text*/
+.page-header-bar h1 {  
   color: #A0AE98;
 text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 -webkit-text-stroke-width: 1px;
@@ -15,7 +15,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-.page-header-bar { /*styles the header bar*/
+.page-header-bar { 
     height: 100px;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ line-height: normal;
     box-shadow: 0 4px 4px rgba(0,0,0,0.25);  
 }
 
-.navbar { /*styles the navbar*/
+.navbar { 
     background-color: #585689 !important;    
     border: 5px solid rgba(0, 0, 0, 0.25);    
     border-radius: 15px;
@@ -41,7 +41,7 @@ line-height: normal;
 }
 
 
-.nav-link { /*styles the nav links*/
+.nav-link { 
     color: #7C7AAA;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     -webkit-text-stroke-width: 1px;
